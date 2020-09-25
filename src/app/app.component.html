@@ -1,19 +1,5 @@
-<h1>CRUD with Angular</h1>
+<div align='center' style="color: white; background-color: tomato"><article><header><h2>Welcome</h2></header></article></div>
 
 
-<table class ="table">
-  <tr *ngFor="let u of users">
-    <td>
-      {{u.id}}
-    </td>
-    <td>
-      {{u.name}}
-    </td>
-    <td>
-      {{u.age}}
-    </td>
-    <td>  
-      <button class= 'btn btn-info' (click)="updateUser()"> UPDATE DATA</button>
-    </td>
-  </tr>
-</table>
+<router-outlet></router-outlet>
+
